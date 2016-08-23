@@ -6,7 +6,10 @@ function doubleChar(str) {
   for (let i = 0; i < str.length; i++) {
     finalstr += str[i] + str[i];
   }
-  console.log(finalstr);
+  return finalstr;
 }
 
-doubleChar('wow');
+console.log(doubleChar('String'));
+console.log(doubleChar('Hello World!'));
+console.log(doubleChar('1234!_ '));
+console.log(doubleChar(5));
